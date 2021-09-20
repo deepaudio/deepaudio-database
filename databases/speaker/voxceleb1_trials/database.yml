@@ -1,0 +1,31 @@
+Datasets:
+  SpeakerDataset:
+    train:
+      debug:
+        list_path: /home/tian/auido_data/deepaudio-database/databases/speaker/debug/debug.txt
+        wav_dir: /home/tian/auido_data/vox1
+      voxceleb2_dev:
+        list_path: your/path/to/deepaudio-database/databases/speaker/voxceleb2/voxceleb2_dev.txt
+        wav_dir: your/dir/to/wav
+      voxceleb1_dev:
+        list_path: your/path/to/deepaudio-database/databases/speaker/voxceleb1/voxceleb1_dev.txt
+        wav_dir: your/dir/to/wav
+    trial:
+      voxceleb1_o:
+        list_path: your/path/to/deepaudio-database/databases/speaker/voxceleb1_trials/veri_test.txt
+        wav_dir: your/dir/to/wav
+      voxceleb1_o_clean:
+        list_path: your/path/to/deepaudio-database/databases/speaker/voxceleb1_trials/veri_test2.txt
+        wav_dir: your/dir/to/wav
+      voxceleb1_h:
+        list_path: your/path/to/deepaudio-database/databases/speaker/voxceleb1_trials/list_test_hard.txt
+        wav_dir: your/dir/to/wav
+      voxceleb1_h_clean:
+        list_path: your/path/to/deepaudio-database/databases/speaker/voxceleb1_trials/list_test_hard2.txt
+        wav_dir: your/dir/to/wav
+      voxceleb1_e:
+        list_path: your/path/to/deepaudio-database/databases/speaker/voxceleb1_trials/list_test_all.txt
+        wav_dir: your/dir/to/wav
+      voxceleb1_e_clean:
+        list_path: your/path/to/deepaudio-database/databases/speaker/voxceleb1_trials/list_test_all2.txt
+        wav_dir: your/dir/to/wav
